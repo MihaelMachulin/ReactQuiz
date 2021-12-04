@@ -1,0 +1,16 @@
+/*в новой версии create react не нужно ковыряться в конфиге вебпака, */
+/*для настройки css модулей, достаточно в названии css файла добавить */
+/*module ( style.module.css ).*/
+
+
+.Layout {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.Layout main {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
